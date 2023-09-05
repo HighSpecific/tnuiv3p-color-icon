@@ -30,7 +30,7 @@ export default {
   <view
     :class="[ns.b(), ns.m(type)]"
     :style="coolIconStyle"
-    @tap.stop="iconClickHandle"
+    @tap="iconClickHandle"
   >
     <view :class="[coolIconBgClass]" :style="coolIconBgStyle" />
     <view :class="[ns.e('icon')]">
